@@ -1,6 +1,6 @@
 # Embedded software architectures
 
-**Round Robin**
+**Loop**
 Processor checks each device in turn and services them as needed.
 
 - simplest architecture
@@ -8,7 +8,7 @@ Processor checks each device in turn and services them as needed.
 - no shared data
 - latency is limited by the maximum duration of a loop cycle
 
-**Round Robin with interrupts**
+**Events**
 Device set interrupt if needed action. Interrupt routines set 
 flags to indicate the interrupt happened. Main loop polls the 
 status of the interrupt flags and does any processing
@@ -28,5 +28,5 @@ execute the function.
 - reduce the worst-case response for the high-priority task
 
 **Operating system**
-
+TODO
 
