@@ -44,3 +44,6 @@ of processing in order to run another.
 - Very short response time for high priority tasks
 - Task synchronization and communication
 - Stable against system modifications
+
+
+All examples are implemented for Raspberry Pi Zero.
